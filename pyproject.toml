@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = ""
+authors = ["tomasz.wszol@gmail,com"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+fastapi-utils = "^0.2.1"
+envyaml = "^1.10.211231"
+
+[tool.poetry.dev-dependencies]
+paver = "^1.2.4"
+testfixtures = "^6.18.5"
+python-gitlab = "^3.2.0"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+pytest-xdist = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
