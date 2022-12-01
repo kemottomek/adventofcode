@@ -5,6 +5,7 @@ description = ""
 authors = ["tomasz.wszol@gmail,com"]
 
 [tool.poetry.dependencies]
+paver = "^1.2.4"
 python = "^3.10"
 pydantic = "^1.10.2"
 fastapi-utils = "^0.2.1"
