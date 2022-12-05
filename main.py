@@ -1,4 +1,4 @@
-from day1.day1 import run_day1
+from day3.day3 import run_day3
 
 if __name__ == "__main__":
-    run_day1()
+    run_day3()
