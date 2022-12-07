@@ -34,5 +34,10 @@ def run_part2() -> None:
             break
 
 def run_day() -> None:
+    a = []
+    a.insert(0,"A")
+    print(a)
+    a.insert(0,"B")
+    print(a)
     run_part1()
     run_part2()
